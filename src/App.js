@@ -13,10 +13,11 @@ function App() {
 
       if (text.length >= 3){
           dispatch(addTodo(text))
+          setText('')
       }
       else {
           alert("Слишком коротко")
-          setText('')
+          setText("")
       }
   }
   const [status, setStatus] = useState('all')
