@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.App{
+  background: lightgray;
+}
+.container{
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 100vh;
+  &__form{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    background:#ffffff 100%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  &__add{
+    display: flex;
+    column-gap: 14px;
+    margin-bottom:10px;
+    padding: 10px;
+    margin-left: 13px;
+  }
+  &__input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    color: black;
+    outline: none;
+    border-radius: 7px;
+
+  }
+  &__btn{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: darkcyan;
+    border: solid 2px darkcyan;
+    border-radius: 5px;
+  }
+  &__btn-icon{
+    background:transparent;
+    border: none;
+  }
+  &__li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    column-gap: 10px;
+  }
+  &__title{
+    width: 220px;
+  }
+  &__change{
+    width: 190px;
+  }
+  &__done{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  &__btn-add {
+    background: darkcyan;
+    outline: none;
+    color:white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    &:hover {
+      background: grey;
+    }
+  }
+  &__btn-delete{
+    background: red;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    &:hover {
+      background: darkred;
+    }
+  }
+  &__btns{
+    display: flex;
+    margin-top: 15px;
+    column-gap: 10px;
+  }
+}
+
+
+
+//.cart__content{
+//  display: flex;
+//  column-gap: 60px;
+//}
+//.cart__left{
+//
+//}
+//.cart__item{
+//  display: flex;
+//  width: 100%;
+//  max-width: 876px;
+//  height: 72px;
+//  background: antiquewhite;
+//  column-gap: 10px;
+//
+//}
+//.card{
+//  display: flex;
+//}
+//.car3{
+// display: flex;
+//}.car1{
+//  display:flex;
+//
+//
+//  column-gap: 10px;
+//}
+//
+//.img{
+//  width: 80px;
+//height: 72px;
+//  object-fit: cover;
+//}
+
